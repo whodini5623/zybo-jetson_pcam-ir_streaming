@@ -1,6 +1,6 @@
 #!/bin/sh
-width=1280
-height=720
+width=640
+height=480
 rate=30
 
 echo "[init-pcam] Setting up PCAM pipeline..."
