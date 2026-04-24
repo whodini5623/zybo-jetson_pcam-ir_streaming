@@ -1,0 +1,1 @@
+uenvcmd=fatload mmc 0 0x00200000 uImage; fatload mmc 0 0x00100000 system.dtb; fdt addr 0x00100000; fdt get value bootargs /chosen bootargs; setenv bootargs ${bootargs} root=/dev/mmcblk0p2 ro rootwait cma=256M@0x10000000; bootm 0x00200000 - 0x00100000
