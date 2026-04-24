@@ -66,8 +66,6 @@ sudo ./init-pcam.sh
 # 2. 스트리밍 시작
 ./zybo-cam-stream <JETSON_IP>
 
-# 예시
-./zybo-cam-stream 192.168.3.143
 ```
 
 `Ctrl+C` 또는 `SIGTERM`으로 양쪽 스레드가 정상 종료됩니다.
