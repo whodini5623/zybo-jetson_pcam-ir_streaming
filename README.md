@@ -15,6 +15,7 @@ zybo-jetson-streaming/
 │   └── uEnv.txt          # U-Boot 환경 변수 — CMA 영역 설정 포함
 ├── jetson/               # Jetson 수신 측 코드 (추후 추가 예정)
 └── zybo/
+    |---- zybo_streamer   # 관련 c, c++ 파일
     ├── init-pcam.sh      # PCAM 카메라 초기화 스크립트 (반드시 먼저 실행)
     └── zybo-cam-stream.c # V4L2 캡처 + UDP 청크 송신 메인 코드
 ```
